@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="2">
+      <Unit0>
+        <Filename Value="funtlaba.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="unitfunt.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="7"/>
+        <CursorPos Y="24"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+    </Units>
+    <JumpHistory Count="8" HistoryIndex="7">
+      <Position1>
+        <Filename Value="unitfunt.pas"/>
+        <Caret Line="45" Column="6" TopLine="24"/>
+      </Position1>
+      <Position2>
+        <Filename Value="unitfunt.pas"/>
+        <Caret Line="50" Column="79" TopLine="26"/>
+      </Position2>
+      <Position3>
+        <Filename Value="unitfunt.pas"/>
+        <Caret Line="63" Column="17" TopLine="31"/>
+      </Position3>
+      <Position4>
+        <Filename Value="unitfunt.pas"/>
+        <Caret Line="61" Column="27" TopLine="33"/>
+      </Position4>
+      <Position5>
+        <Filename Value="unitfunt.pas"/>
+        <Caret Line="63" Column="12" TopLine="33"/>
+      </Position5>
+      <Position6>
+        <Filename Value="unitfunt.pas"/>
+        <Caret Line="62" Column="21" TopLine="33"/>
+      </Position6>
+      <Position7>
+        <Filename Value="unitfunt.pas"/>
+        <Caret Line="58" TopLine="28"/>
+      </Position7>
+      <Position8>
+        <Filename Value="unitfunt.pas"/>
+        <Caret Line="59" TopLine="28"/>
+      </Position8>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

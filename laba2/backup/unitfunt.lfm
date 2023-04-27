@@ -1,0 +1,133 @@
+object Form1: TForm1
+  Left = 1240
+  Height = 378
+  Top = 245
+  Width = 426
+  Caption = 'Form1'
+  ClientHeight = 378
+  ClientWidth = 426
+  LCLVersion = '2.0.8.0'
+  object Label1: TLabel
+    Left = 56
+    Height = 41
+    Top = 15
+    Width = 328
+    AutoSize = False
+    Caption = 'Выберите страну, введите кол-во фунтов'#13#10'              и щелкните по Вычислить'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -16
+    Font.Name = 'Segoe UI Semibold'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object LCountry: TLabel
+    Left = 48
+    Height = 26
+    Top = 80
+    Width = 51
+    AutoSize = False
+    Caption = 'Страна'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -16
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object LBCountry: TListBox
+    Left = 112
+    Height = 146
+    Top = 80
+    Width = 204
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -13
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Items.Strings = (
+      'Россия'
+      'Англия'
+      'Австрия'
+      'Германия'
+      'Дания'
+      'Исландия'
+      'Ирландия'
+      'Нидерланды'
+    )
+    ItemHeight = 17
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Labelfunt: TLabel
+    Left = 136
+    Height = 32
+    Top = 280
+    Width = 152
+    AutoSize = False
+    Color = clSilver
+    Layout = tlCenter
+    ParentColor = False
+    Transparent = False
+  end
+  object Button1: TButton
+    Left = 112
+    Height = 32
+    Top = 320
+    Width = 96
+    Caption = 'Вычислить'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -15
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button1Click
+    ParentFont = False
+    TabOrder = 1
+  end
+  object Editfunt: TEdit
+    Left = 136
+    Height = 24
+    Top = 237
+    Width = 152
+    AutoSize = False
+    TabOrder = 2
+  end
+  object Label3: TLabel
+    Left = 46
+    Height = 21
+    Top = 237
+    Width = 53
+    Caption = 'Фунтов'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -16
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Button2: TButton
+    Left = 220
+    Height = 33
+    Top = 319
+    Width = 96
+    Caption = 'Очистить'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -15
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 3
+  end
+end
