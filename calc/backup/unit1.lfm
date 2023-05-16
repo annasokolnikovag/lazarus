@@ -1,0 +1,183 @@
+object Form1: TForm1
+  Left = 1206
+  Height = 350
+  Top = 243
+  Width = 269
+  Caption = 'Calc'
+  ClientHeight = 350
+  ClientWidth = 269
+  LCLVersion = '2.0.8.0'
+  object EditA: TEdit
+    Left = 13
+    Height = 43
+    Top = 8
+    Width = 147
+    AutoSize = False
+    TabOrder = 0
+  end
+  object LabelAnswer: TLabel
+    Left = 181
+    Height = 44
+    Top = 8
+    Width = 75
+    AutoSize = False
+    Color = clSilver
+    ParentColor = False
+    Transparent = False
+  end
+  object Button1: TButton
+    Left = 13
+    Height = 52
+    Top = 112
+    Width = 60
+    Caption = '1'
+    OnClick = ButClick
+    TabOrder = 1
+  end
+  object Button2: TButton
+    Left = 73
+    Height = 52
+    Top = 112
+    Width = 60
+    Caption = '2'
+    OnClick = ButClick
+    TabOrder = 2
+  end
+  object Button3: TButton
+    Left = 133
+    Height = 52
+    Top = 112
+    Width = 60
+    Caption = '3'
+    OnClick = ButClick
+    TabOrder = 3
+  end
+  object Button4: TButton
+    Left = 13
+    Height = 52
+    Top = 164
+    Width = 60
+    Caption = '4'
+    OnClick = ButClick
+    TabOrder = 4
+  end
+  object Button5: TButton
+    Left = 73
+    Height = 52
+    Top = 164
+    Width = 60
+    Caption = '5'
+    OnClick = ButClick
+    TabOrder = 5
+  end
+  object Button6: TButton
+    Left = 133
+    Height = 52
+    Top = 164
+    Width = 60
+    Caption = '6'
+    OnClick = ButClick
+    TabOrder = 6
+  end
+  object Button7: TButton
+    Left = 13
+    Height = 52
+    Top = 216
+    Width = 60
+    Caption = '7'
+    OnClick = ButClick
+    TabOrder = 7
+  end
+  object Button8: TButton
+    Left = 73
+    Height = 52
+    Top = 216
+    Width = 60
+    Caption = '8'
+    OnClick = ButClick
+    TabOrder = 8
+  end
+  object Button9: TButton
+    Left = 133
+    Height = 52
+    Top = 216
+    Width = 60
+    Caption = '9'
+    OnClick = ButClick
+    TabOrder = 9
+  end
+  object Button0: TButton
+    Left = 13
+    Height = 52
+    Top = 269
+    Width = 60
+    Caption = '0'
+    OnClick = ButClick
+    TabOrder = 10
+  end
+  object ButtonPoint: TButton
+    Left = 73
+    Height = 52
+    Top = 269
+    Width = 60
+    Caption = '.'
+    OnClick = ButClick
+    TabOrder = 11
+  end
+  object ButtonPlus: TButton
+    Left = 196
+    Height = 52
+    Top = 112
+    Width = 60
+    Caption = '+'
+    TabOrder = 12
+  end
+  object ButtonMinus: TButton
+    Left = 196
+    Height = 52
+    Top = 164
+    Width = 60
+    Caption = '-'
+    TabOrder = 13
+  end
+  object ButtonMultiplic: TButton
+    Left = 196
+    Height = 52
+    Top = 216
+    Width = 60
+    Caption = '*'
+    TabOrder = 14
+  end
+  object ButtonDivision: TButton
+    Left = 196
+    Height = 52
+    Top = 269
+    Width = 60
+    Caption = '/'
+    TabOrder = 15
+  end
+  object ButtonRavno: TButton
+    Left = 133
+    Height = 52
+    Top = 269
+    Width = 60
+    Caption = '='
+    TabOrder = 16
+  end
+  object Label1: TLabel
+    Left = 168
+    Height = 15
+    Top = 24
+    Width = 8
+    Caption = '='
+    ParentColor = False
+  end
+  object ButClear: TButton
+    Left = 13
+    Height = 51
+    Top = 59
+    Width = 120
+    Caption = 'C'
+    TabOrder = 17
+  end
+end
